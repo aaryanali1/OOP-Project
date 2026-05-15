@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6a334f-a9cb-4da4-b43c-a9b5b08be030" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/types/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/User.java" afterDir="false" />
+    <list default="true" id="1b6a334f-a9cb-4da4-b43c-a9b5b08be030" name="Changes" comment="add file io">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AuditLog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Items.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Supplier.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/SceneSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Threshold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/mainframe.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/threshold.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/JavaFX.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/JavaFX.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Template.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/UserFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/UserFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +73,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -94,19 +105,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.JavaFX.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JavaFX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Login.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IDEA\OOP-Project\src\ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JavaFX">
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Login" />
+      <module name="Template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Login" />
+      <item itemvalue="Application.JavaFX" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Login" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1b6a334f-a9cb-4da4-b43c-a9b5b08be030" name="Changes" comment="" />
@@ -117,6 +165,8 @@
       <workItem from="1778687115517" duration="2691000" />
       <workItem from="1778694367577" duration="2385000" />
       <workItem from="1778731203768" duration="1216000" />
+      <workItem from="1778733724522" duration="13194000" />
+      <workItem from="1778754717798" duration="19702000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -126,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778687202312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add types">
+      <option name="closed" value="true" />
+      <created>1778733850807</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778733850808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add file io">
+      <option name="closed" value="true" />
+      <created>1778744516408</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778744516408</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +200,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add types" />
+    <MESSAGE value="add file io" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file io" />
   </component>
 </project>

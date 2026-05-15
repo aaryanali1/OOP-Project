@@ -9,7 +9,9 @@ import java.util.ArrayList;
 
 public class UserFile {
 
-    private static final String FILE_PATH = "data\\Users.txt";
+    //private static final String FILE_PATH = "data/Users.txt";
+
+    private static final String FILE_PATH = "src/data/Users.txt";
 
     public static void writeToFile(ArrayList<User> users) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {

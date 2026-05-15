@@ -47,6 +47,18 @@ public class Item {
         calcuateStatus();
     }
 
+    public static int getGoodThreshold() {
+        return GOOD_THRESHOLD;
+    }
+
+    public static int getOkThreshold() {
+        return OK_THRESHOLD;
+    }
+
+    public static int getBadThreshold() {
+        return BAD_THRESHOLD;
+    }
+
     public String getId() {
         return id;
     }
@@ -113,6 +125,18 @@ public class Item {
 
     public boolean isDelivered() {
         return delivered;
+    }
+
+    public static void setGoodThreshold(int goodThreshold) {
+        GOOD_THRESHOLD = goodThreshold;
+    }
+
+    public static void setOkThreshold(int okThreshold) {
+        OK_THRESHOLD = okThreshold;
+    }
+
+    public static void setBadThreshold(int badThreshold) {
+        BAD_THRESHOLD = badThreshold;
     }
 
     public void setProductName(String productName) {
