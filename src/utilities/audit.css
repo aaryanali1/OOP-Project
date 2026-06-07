@@ -1,0 +1,21 @@
+.text-area {
+    -fx-background-color: #1E293B;
+    -fx-background-insets: 0;
+    -fx-background-radius: 6;
+    -fx-border-color: #274B79;
+    -fx-border-radius: 6;
+    -fx-font-family: "Consolas";
+    -fx-font-size: 13px;
+}
+
+.text-area .content {
+    -fx-background-color: #1E293B;
+}
+
+.text-area .text {
+    -fx-fill: white;
+}
+
+.text-area {
+    -fx-text-fill: white;
+}

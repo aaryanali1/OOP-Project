@@ -1,0 +1,160 @@
+1|TechSource Ltd|sales@techsource.com|3|Electronics|Clear|5|true
+2|DigiWorld Supplies|info@digiworld.pk|5|Electronics|Clear|4|true
+3|ByteZone Trading|orders@bytezone.com|7|Electronics|Pending|3|true
+4|NovaTech Imports|procurement@novatech.pk|4|Electronics|Clear|5|true
+5|CircuitHub Co|supply@circuithub.com|6|Electronics|Overdue|2|true
+6|GadgetPro Wholesale|gadgetpro@gmail.com|10|Electronics|Clear|3|false
+7|PeakVolt Electronics|sales@peakvolt.pk|4|Electronics|Clear|4|true
+8|PixelDrop Traders|pixeldrop@trade.pk|8|Electronics|Pending|3|true
+9|CoreTech Imports|coretech@imports.pk|5|Electronics|Clear|5|true
+10|SignalPlus Co|signalplus@mail.com|6|Electronics|Clear|4|true
+11|SmartGear Ltd|smartgear@ltd.pk|9|Electronics|Overdue|2|false
+12|WireWorld Trading|wirewrld@trading.pk|7|Electronics|Clear|3|true
+13|TechNest Wholesale|technest@wholesale.com|5|Electronics|Clear|4|true
+14|FurniCore Solutions|orders@furnicore.pk|14|Furniture|Clear|5|true
+15|WoodCraft Interiors|sales@woodcraft.com|21|Furniture|Pending|3|true
+16|OfficePlex Furniture|contact@officeplex.pk|18|Furniture|Clear|4|true
+17|ErgoSpace Ltd|info@ergospace.com|20|Furniture|Overdue|2|false
+18|DeskMasters Trading|deskmaster@mail.pk|25|Furniture|Clear|3|true
+19|SteelFrame Supplies|steelframe@supply.pk|16|Furniture|Clear|5|true
+20|ComfortZone Interiors|comfortzone@interiors.com|22|Furniture|Pending|3|true
+21|ModSpace Furniture|modspace@furniture.pk|19|Furniture|Clear|4|true
+22|ChairKing Wholesale|chairking@wholesale.pk|24|Furniture|Overdue|1|false
+23|NestWood Trading|nestwood@trade.com|17|Furniture|Clear|4|true
+24|UrbanDesk Co|urbandesk@co.pk|20|Furniture|Clear|3|true
+25|PrimeSpace Ltd|primespace@ltd.pk|23|Furniture|Pending|2|false
+26|PaperFlow Stationery|orders@paperflow.pk|3|Stationery|Clear|5|true
+27|InkDrop Supplies|inkdrop@supplies.com|4|Stationery|Clear|4|true
+28|WriteRight Co|writeright@gmail.com|5|Stationery|Clear|5|true
+29|StatPro Wholesale|statpro@statpro.pk|6|Stationery|Pending|3|true
+30|QuillMark Traders|quillmark@trade.pk|3|Stationery|Clear|4|true
+31|OfficeNest Supplies|sales@officenest.com|4|Stationery|Overdue|2|true
+32|BrandMark Stationery|bms@brandmark.pk|7|Stationery|Clear|3|false
+33|PenPoint Trading|penpoint@trading.pk|5|Stationery|Clear|4|true
+34|PageCraft Imports|pagecraft@imports.pk|4|Stationery|Clear|5|true
+35|InkWell Wholesale|inkwell@wholesale.com|6|Stationery|Pending|3|true
+36|ScribeZone Co|scribezone@co.pk|3|Stationery|Clear|4|true
+37|NoteMax Ltd|notemax@ltd.pk|5|Stationery|Overdue|2|false
+38|MachineWorks Ltd|procurement@machineworks.pk|10|Office Machines|Clear|5|true
+39|PrintZone Trading|orders@printzone.com|12|Office Machines|Clear|4|true
+40|TechPrint Supplies|techprint@supplies.pk|8|Office Machines|Pending|3|true
+41|CopierKing Wholesale|info@copierking.pk|14|Office Machines|Clear|5|true
+42|AutoOffice Co|autooffice@mail.com|11|Office Machines|Overdue|2|false
+43|OfficeMech Imports|officemech@imports.pk|9|Office Machines|Clear|4|true
+44|PrintMaster Traders|printmaster@trade.pk|13|Office Machines|Clear|3|true
+45|DocuPro Supplies|docupro@supplies.com|10|Office Machines|Pending|3|true
+46|ShredTech Ltd|shredtech@ltd.pk|8|Office Machines|Clear|4|true
+47|BindMax Co|bindmax@co.pk|11|Office Machines|Overdue|1|false
+48|VoltEdge Electrical|voltedge@mail.pk|6|Electrical|Clear|5|true
+49|PowerLine Traders|powerline@traders.pk|8|Electrical|Clear|4|true
+50|ElectraSupply Co|electrasupply@gmail.com|5|Electrical|Clear|4|true
+51|WattZone Imports|wattzone@imports.pk|9|Electrical|Pending|3|true
+52|BrightSpark Ltd|brightspark@ltd.com|7|Electrical|Overdue|1|false
+53|CurrentFlow Trading|currentflow@trade.pk|6|Electrical|Clear|5|true
+54|AmperePro Wholesale|amperepro@wholesale.pk|8|Electrical|Clear|4|true
+55|GridMax Supplies|gridmax@supplies.com|7|Electrical|Pending|2|true
+56|LiveWire Imports|livewire@imports.pk|5|Electrical|Clear|4|true
+57|PowerCore Co|powercore@co.pk|9|Electrical|Overdue|2|false
+58|CleanCo Hygiene|cleanco@hygiene.pk|4|Hygiene|Clear|5|true
+59|PureLife Supplies|purelife@supplies.com|5|Hygiene|Clear|4|true
+60|HygiFirst Trading|hygifirst@mail.pk|3|Hygiene|Clear|5|true
+61|SafeZone Products|safezone@products.pk|6|Hygiene|Pending|3|true
+62|FreshSpace Co|freshspace@co.pk|4|Hygiene|Clear|4|true
+63|SanitPro Wholesale|sanitpro@wholesale.pk|7|Hygiene|Overdue|2|false
+64|CleanWave Imports|cleanwave@imports.pk|5|Hygiene|Clear|4|true
+65|PureSense Trading|puresense@trade.com|4|Hygiene|Clear|3|true
+66|HygiMax Co|hygimax@co.pk|6|Hygiene|Pending|3|true
+67|GermShield Ltd|germshield@ltd.pk|5|Hygiene|Clear|5|true
+68|BrewMate Pantry|brewmate@pantry.pk|5|Pantry|Clear|5|true
+69|CafeStock Supplies|cafestock@mail.com|4|Pantry|Clear|4|true
+70|PantryPlus Trading|pantryplus@trading.pk|6|Pantry|Pending|3|true
+71|SnackHub Wholesale|snackhub@wholesale.com|5|Pantry|Clear|4|true
+72|DailyBrew Imports|dailybrew@imports.pk|7|Pantry|Overdue|2|true
+73|RefreshCo Supplies|refreshco@supplies.pk|4|Pantry|Clear|5|true
+74|KitchenStock Traders|kitchenstock@trade.pk|6|Pantry|Clear|4|true
+75|MunchZone Wholesale|munchzone@wholesale.com|5|Pantry|Pending|3|true
+76|ProVision Pantry|provision@pantry.pk|6|Pantry|Clear|4|true
+77|FoodFirst Imports|foodfirst@imports.pk|7|Pantry|Overdue|1|false
+78|NexaNet Solutions|nexanet@solutions.pk|7|Networking|Clear|5|true
+79|CablePro Traders|cablepro@trade.pk|5|Networking|Clear|4|true
+80|NetGear Wholesale|netgear.ws@mail.pk|8|Networking|Pending|3|true
+81|InfraLink Co|infralink@co.com|10|Networking|Clear|5|true
+82|DataBridge Imports|databridge@imports.pk|9|Networking|Overdue|2|false
+83|PatchMax Supplies|patchmax@supplies.pk|6|Networking|Clear|4|true
+84|FiberEdge Trading|fiberedge@trading.com|8|Networking|Clear|5|true
+85|RouteCore Ltd|routecore@ltd.pk|7|Networking|Pending|3|true
+86|NetSpan Wholesale|netspan@wholesale.pk|9|Networking|Clear|4|true
+87|LinkPro Co|linkpro@co.pk|6|Networking|Overdue|2|false
+88|MediStock Ltd|medistock@ltd.pk|6|Medical|Clear|5|true
+89|PharmaPlus Supplies|pharmaplus@supply.com|7|Medical|Clear|4|true
+90|CareFirst Trading|carefirst@trading.pk|5|Medical|Pending|3|true
+91|HealthLine Co|healthline@co.pk|8|Medical|Clear|4|true
+92|MedCore Wholesale|medcore@wholesale.pk|9|Medical|Overdue|2|false
+93|VitalSupply Imports|vitalsupply@imports.pk|6|Medical|Clear|5|true
+94|CureZone Traders|curezone@trade.pk|7|Medical|Clear|4|true
+95|MedFirst Co|medfirst@co.pk|5|Medical|Pending|3|true
+96|LifeLine Supplies|lifeline@supplies.pk|8|Medical|Clear|4|true
+97|AidPro Wholesale|aidpro@wholesale.com|10|Medical|Overdue|1|false
+98|SecureVision Ltd|securevision@ltd.pk|12|Security|Clear|5|true
+99|GuardTech Supplies|guardtech@supplies.com|15|Security|Clear|4|true
+100|SafeWatch Trading|safewatch@mail.pk|18|Security|Pending|3|true
+101|ShieldPro Imports|shieldpro@imports.pk|14|Security|Overdue|1|false
+102|VisionGuard Co|visionguard@co.pk|11|Security|Clear|5|true
+103|SentryTech Traders|sentrytech@trade.pk|13|Security|Clear|4|true
+104|LockMax Wholesale|lockmax@wholesale.pk|16|Security|Pending|3|true
+105|AlarmPro Supplies|alarmpro@supplies.com|12|Security|Clear|4|true
+106|WatchCore Ltd|watchcore@ltd.pk|15|Security|Overdue|2|false
+107|SafeGuard Systems|safeguard@sys.pk|10|Safety|Clear|5|true
+108|HazardOff Supplies|hazardoff@supplies.pk|8|Safety|Clear|4|true
+109|ProtectZone Co|protectzone@mail.com|9|Safety|Pending|3|true
+110|RescuePro Imports|rescuepro@imports.pk|11|Safety|Clear|5|true
+111|FireShield Traders|fireshield@trade.pk|8|Safety|Clear|4|true
+112|SafeFirst Wholesale|safefirst@wholesale.pk|10|Safety|Overdue|2|false
+113|GuardLine Supplies|guardline@supplies.com|9|Safety|Clear|3|true
+114|DataVault Storage|datavault@storage.pk|8|Storage|Clear|5|true
+115|ByteStore Wholesale|bytestore@wholesale.pk|10|Storage|Clear|4|true
+116|DriveMax Imports|drivemax@imports.pk|12|Storage|Overdue|2|false
+117|DiskPro Trading|diskpro@trading.pk|9|Storage|Clear|4|true
+118|StorageFirst Co|storagefirst@co.pk|11|Storage|Pending|3|true
+119|VaultTech Supplies|vaulttech@supplies.pk|8|Storage|Clear|5|true
+120|MemoryMax Ltd|memorymax@ltd.pk|10|Storage|Clear|4|true
+121|AlphaElec Traders|alphaelec@trade.pk|5|Electronics|Clear|4|true
+122|MegaByte Imports|megabyte@imports.pk|7|Electronics|Pending|3|true
+123|TechVibe Co|techvibe@co.pk|6|Electronics|Clear|5|true
+124|GridTech Wholesale|gridtech@wholesale.pk|8|Electronics|Overdue|2|false
+125|NanoGear Supplies|nanogear@supplies.com|4|Electronics|Clear|4|true
+126|OmniDesk Furniture|omnidesk@furniture.pk|19|Furniture|Clear|4|true
+127|SpaceFrame Trading|spaceframe@trade.pk|22|Furniture|Pending|2|true
+128|LuxiSeating Ltd|luxiseating@ltd.pk|18|Furniture|Clear|5|true
+129|ProDesk Wholesale|prodesk@wholesale.pk|20|Furniture|Overdue|1|false
+130|FrameWorks Imports|frameworks@imports.pk|16|Furniture|Clear|3|true
+131|InkFirst Traders|inkfirst@traders.pk|4|Stationery|Clear|5|true
+132|CraftLine Supplies|craftline@supplies.com|5|Stationery|Pending|3|true
+133|PaperMax Co|papermax@co.pk|3|Stationery|Clear|4|true
+134|WriteZone Wholesale|writezone@wholesale.pk|6|Stationery|Overdue|2|false
+135|DeskPad Imports|deskpad@imports.pk|4|Stationery|Clear|4|true
+136|PrintFlow Traders|printflow@traders.pk|11|Office Machines|Clear|5|true
+137|MachZone Supplies|machzone@supplies.pk|9|Office Machines|Pending|3|true
+138|DocuMax Co|documax@co.pk|12|Office Machines|Clear|4|true
+139|OfficeGear Wholesale|officegear@wholesale.com|10|Office Machines|Overdue|2|false
+140|AutoMech Imports|automech@imports.pk|13|Office Machines|Clear|3|true
+141|AmpMax Traders|ampmax@traders.pk|7|Electrical|Clear|5|true
+142|CircuitPro Supplies|circuitpro@supplies.pk|6|Electrical|Clear|4|true
+143|SparkLine Co|sparkline@co.pk|8|Electrical|Pending|3|true
+144|PowerFirst Wholesale|powerfirst@wholesale.pk|5|Electrical|Clear|4|true
+145|VoltMax Imports|voltmax@imports.pk|9|Electrical|Overdue|2|false
+146|SaniFirst Traders|sanifirst@traders.pk|4|Hygiene|Clear|5|true
+147|CleanMax Supplies|cleanmax@supplies.com|5|Hygiene|Clear|4|true
+148|FreshLine Co|freshline@co.pk|3|Hygiene|Pending|3|true
+149|PureMax Wholesale|puremax@wholesale.pk|6|Hygiene|Clear|4|true
+150|HygiTech Imports|hygitech@imports.pk|5|Hygiene|Overdue|2|false
+151|FuelZone Pantry|fuelzone@pantry.pk|5|Pantry|Clear|5|true
+152|StockFresh Traders|stockfresh@trade.pk|4|Pantry|Clear|4|true
+153|GrainMax Supplies|grainmax@supplies.pk|6|Pantry|Pending|3|true
+154|BeveragePro Co|beveragepro@co.pk|5|Pantry|Clear|4|true
+155|PantryCore Wholesale|pantrycore@wholesale.pk|7|Pantry|Overdue|1|false
+156|SwitchPro Traders|switchpro@traders.pk|8|Networking|Clear|5|true
+157|NetCore Supplies|netcore@supplies.pk|7|Networking|Clear|4|true
+158|CableMax Co|cablemax@co.pk|9|Networking|Pending|3|true
+159|InfraMax Wholesale|inframax@wholesale.com|10|Networking|Clear|4|true
+160|DataLine Imports|dataline@imports.pk|8|Networking|Overdue|2|false

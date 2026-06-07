@@ -4,22 +4,50 @@
     <list default="true" id="1b6a334f-a9cb-4da4-b43c-a9b5b08be030" name="Changes" comment="add file io">
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/data/AuditLog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Items.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Supplier.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/InventoryItems.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Suppliers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Threshold.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/data/Users.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/SceneSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Threshold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/mainframe.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/threshold.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileio/FileHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileio/InventoryItemFilling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileio/SupplierFilling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileio/ThresholdFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileio/UserFilling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/FileWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/InventoryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/AddItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/AddSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/AuditLogTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/InventoryItemTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/LoginWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/ReorderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/SellItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/SupplierTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/ThresholdWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/UpdateItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/UpdateItemPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/UpdateSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/audit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/tabpane.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/JavaFX.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/JavaFX.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Template.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileio/UserFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/UserFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/AuditLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/AuditLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/ItemFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/SupplierFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/UserFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/RegisterWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/SceneSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/login.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +103,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -121,7 +150,9 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -132,8 +163,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.JavaFX">
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ui.Login" />
+    <configuration name="LoginWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.LoginWindow" />
       <module name="Template" />
       <extension name="coverage">
         <pattern>
@@ -146,14 +177,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Login" />
       <item itemvalue="Application.JavaFX" />
+      <item itemvalue="Application.LoginWindow" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.LoginWindow" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

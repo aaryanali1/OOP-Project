@@ -1,27 +1,26 @@
 package fileio;
 
-import java.io.*;
-import java.time.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class AuditLog {
+    private static final String FILE_PATH = "src/data/AuditLog.txt";
+    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy hh:mm:ss a");
 
-    private static final String FILE_PATH = "data\\AuditLog.txt";
-    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-
-    public void logEntry(String username, String role, String action) {
-        String timestamp = LocalDateTime.now().format(FORMATTER);
-        String entry = String.format("%s %s %s %s",  timestamp, role, username, action);
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
+    public static void logEntry(String username, String role, String action) {
+        String time = LocalDateTime.now().format(FORMATTER);
+        String entry = String.format("[%s] '%s' %s: %s", time, role, username, action);
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH, true))) {
             writer.write(entry);
             writer.newLine();
         }
-        catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-        catch (IOException e) {
-            System.out.println("Error while writing to file");
+        catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
@@ -29,15 +28,12 @@ public class AuditLog {
         ArrayList<String> logs = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
-            while((line = reader.readLine()) != null) {
+            while ((line = reader.readLine()) != null) {
                 if (!line.trim().isEmpty()) logs.add(line);
             }
         }
-        catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-        catch (IOException e) {
-            System.out.println("Error while writing to file");
+        catch (Exception e) {
+            e.printStackTrace();
         }
         return logs;
     }

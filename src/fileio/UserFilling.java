@@ -4,27 +4,24 @@ import types.Admin;
 import types.Staff;
 import types.User;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.ArrayList;
 
-public class UserFile {
-
-    //private static final String FILE_PATH = "data/Users.txt";
-
+public class UserFilling {
     private static final String FILE_PATH = "src/data/Users.txt";
 
     public static void writeToFile(ArrayList<User> users) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))){
             for (User u : users) {
-                writer.write(u.toFileFormat());
+                writer.write(u.toString());
                 writer.newLine();
             }
         }
-        catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-        catch (IOException e) {
-            System.out.println("Error while writing to file");
+        catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
@@ -35,9 +32,9 @@ public class UserFile {
         String role = part[2];
 
         switch (role) {
-            case "Admin":
+            case "ADMIN":
                 return new Admin(username, password);
-            case "Staff":
+            case "STAFF":
                 return new Staff(username, password);
             default:
                 return null;
@@ -45,20 +42,15 @@ public class UserFile {
     }
 
     public static void readFromFile(ArrayList<User> users) {
-        try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))){
             String line;
             while ((line = reader.readLine()) != null) {
                 User user = parseUser(line);
-                if (user != null) {
-                    users.add(user);
-                }
+                if(user != null) users.add(user);
             }
         }
-        catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-        catch (IOException e) {
-            System.out.println("Error while reading file");
+        catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

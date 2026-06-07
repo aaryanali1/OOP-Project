@@ -1,0 +1,155 @@
+1|Wireless Mouse|850|1499|312|45|In Stock|Electronics|false|false|0|0|false
+2|USB-C Hub 7-Port|1200|2199|87|12|Low Stock|Electronics|false|true|25|7|false
+3|Mechanical Keyboard|3500|5999|203|8|Low Stock|Electronics|true|true|15|5|true
+4|27" Monitor|28000|42000|55|3|Critical|Electronics|false|true|10|14|false
+5|HDMI Cable 2m|180|349|891|200|In Stock|Electronics|false|false|0|0|false
+6|Laptop Stand|650|1199|144|30|In Stock|Electronics|false|false|0|0|false
+7|Webcam 1080p|2200|3799|76|6|Low Stock|Electronics|false|true|20|8|false
+8|Noise Cancelling Headphones|8500|13999|41|2|Critical|Electronics|true|true|5|10|false
+9|Ethernet Cable Cat6|120|249|540|180|In Stock|Electronics|false|false|0|0|false
+10|Portable SSD 1TB|4500|7299|98|18|In Stock|Electronics|false|false|0|0|false
+11|Bluetooth Speaker|1800|2999|267|35|In Stock|Electronics|false|false|0|0|false
+12|Smart Bulb Pack|750|1299|183|50|In Stock|Electronics|false|false|0|0|false
+13|Router WiFi 6|5500|8999|62|9|Low Stock|Electronics|true|true|12|9|false
+14|Power Bank 20000mAh|1500|2599|334|40|In Stock|Electronics|false|false|0|0|false
+15|Screen Cleaning Kit|90|199|420|120|In Stock|Electronics|false|false|0|0|false
+16|Drawing Tablet|6500|10999|33|5|Low Stock|Electronics|false|true|8|12|false
+17|USB Flash Drive 64GB|250|449|677|95|In Stock|Electronics|false|false|0|0|false
+18|Smart Watch|12000|18999|88|7|Low Stock|Electronics|true|true|10|11|false
+19|Cable Management Box|300|599|211|40|In Stock|Electronics|false|false|0|0|false
+20|Mini Projector|9500|15999|27|4|Critical|Electronics|false|true|6|15|false
+21|Office Chair|12000|19999|44|6|Low Stock|Furniture|false|true|10|21|false
+22|Standing Desk|25000|39999|18|2|Critical|Furniture|false|true|4|30|false
+23|Monitor Arm|2200|3799|91|14|In Stock|Furniture|false|false|0|0|false
+24|3-Drawer Cabinet|5500|8499|37|5|Low Stock|Furniture|true|true|8|18|false
+25|Whiteboard 4x3ft|3200|5299|55|8|Low Stock|Furniture|false|true|10|14|false
+26|Bookshelf 5-Tier|4800|7999|29|4|Critical|Furniture|false|true|5|20|false
+27|Ergonomic Footrest|900|1599|143|22|In Stock|Furniture|false|false|0|0|false
+28|Desk Organizer Set|450|799|287|60|In Stock|Furniture|false|false|0|0|false
+29|Reception Sofa|35000|54999|8|1|Critical|Furniture|true|true|2|45|false
+30|Visitor Chair|3500|5799|62|10|In Stock|Furniture|false|false|0|0|false
+31|A4 Paper Ream|350|599|1240|300|In Stock|Stationery|false|false|0|0|false
+32|Ballpoint Pen Box|120|229|2100|500|In Stock|Stationery|false|false|0|0|false
+33|Sticky Notes Pack|80|149|980|220|In Stock|Stationery|false|false|0|0|false
+34|Stapler Heavy Duty|280|499|317|45|In Stock|Stationery|false|false|0|0|false
+35|Staple Pins Box|40|89|1450|400|In Stock|Stationery|false|false|0|0|false
+36|Whiteboard Markers Set|180|329|540|85|In Stock|Stationery|false|false|0|0|false
+37|Highlighter Set 6pk|150|279|720|130|In Stock|Stationery|false|false|0|0|false
+38|File Folders Box|320|549|410|70|In Stock|Stationery|false|false|0|0|false
+39|Correction Tape|55|99|830|200|In Stock|Stationery|false|false|0|0|false
+40|Scissors Set|90|169|390|55|In Stock|Stationery|false|false|0|0|false
+41|Binder Clips Assorted|60|119|1100|250|In Stock|Stationery|false|false|0|0|false
+42|Notebook A5 Pack|200|379|670|90|In Stock|Stationery|false|false|0|0|false
+43|Tape Dispenser|110|199|445|60|In Stock|Stationery|false|false|0|0|false
+44|Rubber Stamps Set|350|599|88|12|Low Stock|Stationery|false|true|20|5|false
+45|Lamination Pouches|280|499|234|35|In Stock|Stationery|false|false|0|0|false
+46|Laser Printer|28000|44999|22|3|Critical|Office Machines|false|true|5|18|false
+47|Inkjet Printer|8500|13999|47|5|Low Stock|Office Machines|false|true|8|12|false
+48|Printer Ink Black|650|1099|387|40|In Stock|Office Machines|false|false|0|0|false
+49|Printer Ink Color|750|1249|298|30|In Stock|Office Machines|false|false|0|0|false
+50|Paper Shredder|5500|8999|31|4|Critical|Office Machines|true|true|6|14|false
+51|Laminator A4|3200|5299|58|8|Low Stock|Office Machines|false|true|10|10|false
+52|Binding Machine|4500|7499|24|3|Critical|Office Machines|false|true|4|16|false
+53|Label Maker|1800|2999|112|15|In Stock|Office Machines|false|false|0|0|false
+54|Barcode Scanner|3500|5799|67|9|Low Stock|Office Machines|true|true|10|8|false
+55|Receipt Printer|6500|10499|38|5|Low Stock|Office Machines|false|true|8|11|false
+56|Toner Cartridge HP|2200|3699|201|25|In Stock|Office Machines|false|false|0|0|false
+57|UPS 650VA|3800|6299|43|6|Low Stock|Office Machines|false|true|10|9|false
+58|Extension Board 6-port|380|649|512|80|In Stock|Electrical|false|false|0|0|false
+59|LED Tube Light|220|399|730|150|In Stock|Electrical|false|false|0|0|false
+60|Wall Socket Adapter|140|259|640|120|In Stock|Electrical|false|false|0|0|false
+61|Voltage Stabilizer|2800|4599|54|7|Low Stock|Electrical|false|true|12|10|false
+62|Electric Kettle|1200|1999|188|28|In Stock|Electrical|false|false|0|0|false
+63|Desk Fan|800|1399|245|35|In Stock|Electrical|false|false|0|0|false
+64|Air Purifier|8500|13999|29|3|Critical|Electrical|false|true|5|20|false
+65|Ceiling Fan Remote|350|599|177|22|In Stock|Electrical|false|false|0|0|false
+66|Smart Plug 4-pack|650|1099|143|18|In Stock|Electrical|false|false|0|0|false
+67|Battery Pack AA 24|180|319|880|160|In Stock|Electrical|false|false|0|0|false
+68|Hand Sanitizer 5L|800|1399|320|48|In Stock|Hygiene|false|false|0|0|false
+69|Tissue Box Pack|180|299|750|120|In Stock|Hygiene|false|false|0|0|false
+70|Disinfectant Spray|350|599|410|65|In Stock|Hygiene|false|false|0|0|false
+71|Disposable Gloves Box|450|749|290|40|In Stock|Hygiene|false|false|0|0|false
+72|Face Masks Box 50pk|380|649|510|70|In Stock|Hygiene|false|false|0|0|false
+73|Floor Cleaner 4L|600|999|230|35|In Stock|Hygiene|false|false|0|0|false
+74|Mop & Bucket Set|850|1399|88|10|Low Stock|Hygiene|false|true|15|6|false
+75|Trash Bags Roll|220|379|670|100|In Stock|Hygiene|false|false|0|0|false
+76|Air Freshener Spray|120|219|540|80|In Stock|Hygiene|false|false|0|0|false
+77|Soap Dispenser|280|499|195|28|In Stock|Hygiene|false|false|0|0|false
+78|Liquid Hand Soap 2L|320|549|415|55|In Stock|Hygiene|false|false|0|0|false
+79|Toilet Paper Bulk|1100|1799|380|60|In Stock|Hygiene|false|false|0|0|false
+80|Dust Bin 20L|450|749|140|18|In Stock|Hygiene|false|false|0|0|false
+81|Coffee Machine|12000|19999|34|4|Critical|Pantry|true|true|5|16|false
+82|Water Dispenser|15000|24999|21|2|Critical|Pantry|false|true|3|22|false
+83|Coffee Beans 1kg|1200|1999|287|42|In Stock|Pantry|false|false|0|0|false
+84|Tea Bags 100pk|350|599|460|75|In Stock|Pantry|false|false|0|0|false
+85|Sugar 5kg Bag|650|999|290|45|In Stock|Pantry|false|false|0|0|false
+86|Creamer 500g|280|479|310|50|In Stock|Pantry|false|false|0|0|false
+87|Paper Cups 100pk|180|299|520|80|In Stock|Pantry|false|false|0|0|false
+88|Mineral Water 24pk|600|999|640|100|In Stock|Pantry|false|false|0|0|false
+89|Plastic Spoons Pack|80|149|780|150|In Stock|Pantry|false|false|0|0|false
+90|Microwave Oven|9500|15999|26|3|Critical|Pantry|false|true|4|18|false
+91|Snack Variety Box|1800|2999|177|25|In Stock|Pantry|false|false|0|0|false
+92|Instant Noodles 12pk|480|799|390|60|In Stock|Pantry|false|false|0|0|false
+93|Ethernet Switch 8-port|2800|4599|55|8|Low Stock|Networking|false|true|10|8|false
+94|Patch Panel 24-port|4500|7299|18|2|Critical|Networking|true|true|4|12|false
+95|Network Rack 9U|12000|19999|9|1|Critical|Networking|false|true|2|25|false
+96|Fiber Patch Cable|380|649|134|20|In Stock|Networking|false|false|0|0|false
+97|PoE Injector|1800|2999|44|6|Low Stock|Networking|false|true|8|7|false
+98|Cable Tester|1200|1999|67|9|Low Stock|Networking|false|true|10|6|false
+99|SFP Module|3200|5299|28|3|Critical|Networking|true|true|6|10|false
+100|Wall Mount Bracket|550|899|112|16|In Stock|Networking|false|false|0|0|false
+101|Paracetamol Strip|35|69|1200|300|In Stock|Medical|false|false|0|0|false
+102|First Aid Kit|850|1399|143|20|In Stock|Medical|false|false|0|0|false
+103|Digital Thermometer|380|649|210|30|In Stock|Medical|false|false|0|0|false
+104|Blood Pressure Monitor|4500|7299|48|6|Low Stock|Medical|false|true|8|9|false
+105|Eye Drops Saline|120|219|430|65|In Stock|Medical|false|false|0|0|false
+106|Bandage Roll Pack|180|299|560|90|In Stock|Medical|false|false|0|0|false
+107|Antiseptic Cream|150|269|390|55|In Stock|Medical|false|false|0|0|false
+108|Pulse Oximeter|1200|1999|88|11|Low Stock|Medical|false|true|15|7|false
+109|Vitamin C Tablets|280|479|310|45|In Stock|Medical|false|false|0|0|false
+110|Stretcher Folding|8500|13999|7|1|Critical|Medical|false|true|2|20|false
+111|Notepad Legal Pad|150|269|560|88|In Stock|Stationery|false|false|0|0|false
+112|Push Pins Box|45|89|920|200|In Stock|Stationery|false|false|0|0|false
+113|Rubber Bands Box|55|99|870|180|In Stock|Stationery|false|false|0|0|false
+114|Index Cards Pack|95|179|640|110|In Stock|Stationery|false|false|0|0|false
+115|Document Tray 3-tier|380|649|230|32|In Stock|Stationery|false|false|0|0|false
+116|Presentation Clicker|650|1099|145|20|In Stock|Electronics|false|false|0|0|false
+117|USB Numeric Keypad|480|799|187|25|In Stock|Electronics|false|false|0|0|false
+118|Wrist Rest Pad|250|429|310|45|In Stock|Electronics|false|false|0|0|false
+119|Cable Organizer Velcro|90|169|780|150|In Stock|Electronics|false|false|0|0|false
+120|Screen Privacy Filter|1100|1799|98|13|Low Stock|Electronics|false|true|18|6|false
+121|Whiteboard Eraser|80|149|640|110|In Stock|Stationery|false|false|0|0|false
+122|Permanent Markers 12pk|200|369|480|72|In Stock|Stationery|false|false|0|0|false
+123|Envelope Pack A4|280|479|320|50|In Stock|Stationery|false|false|0|0|false
+124|Punching Machine|320|549|275|38|In Stock|Stationery|false|false|0|0|false
+125|Binding Comb 50pk|180|319|190|28|In Stock|Stationery|false|false|0|0|false
+126|Security Camera|8500|13999|35|4|Critical|Security|true|true|6|15|false
+127|Door Access Card Reader|12000|19999|12|1|Critical|Security|true|true|3|20|false
+128|Motion Sensor|2200|3699|44|6|Low Stock|Security|false|true|8|10|false
+129|CCTV DVR 8-Channel|15000|24999|8|1|Critical|Security|false|true|2|18|false
+130|Biometric Attendance|18000|29999|14|2|Critical|Security|true|true|3|22|false
+131|Fire Extinguisher|2500|4199|67|9|Low Stock|Safety|false|true|10|8|false
+132|Smoke Detector|1200|1999|88|12|Low Stock|Safety|false|true|15|7|false
+133|Emergency Exit Sign|800|1399|55|7|Low Stock|Safety|false|true|10|6|false
+134|Safety Helmet Pack|1500|2499|43|5|Low Stock|Safety|false|true|8|9|false
+135|Safety Vest 5pk|950|1599|77|10|In Stock|Safety|false|false|0|0|false
+136|Hard Drive 2TB|5500|8999|67|9|Low Stock|Storage|false|true|10|8|false
+137|NAS Device 2-Bay|18000|29999|15|2|Critical|Storage|true|true|3|16|false
+138|USB Hub 4-port|380|649|345|55|In Stock|Storage|false|false|0|0|false
+139|SD Card 128GB|800|1299|210|30|In Stock|Storage|false|false|0|0|false
+140|Flash Drive 256GB|1100|1799|145|20|In Stock|Storage|false|false|0|0|false
+141|Thermal Paste|180|319|230|35|In Stock|Electronics|false|false|0|0|false
+142|Anti-Static Wrist Strap|120|219|180|28|In Stock|Electronics|false|false|0|0|false
+143|Magnifying Glass|150|269|95|14|In Stock|Electronics|false|false|0|0|false
+144|Soldering Iron|1200|1999|42|5|Low Stock|Electronics|true|true|8|10|false
+145|Multimeter Digital|1800|2999|77|10|In Stock|Electronics|false|false|0|0|false
+146|Projector Screen 80"|8000|12999|22|3|Critical|Electronics|false|true|4|18|false
+147|DSLR Camera|55000|84999|11|1|Critical|Electronics|true|true|2|21|false
+148|Tripod Stand|2200|3599|44|6|Low Stock|Electronics|false|true|8|10|false
+149|Green Screen Kit|1800|2999|28|4|Critical|Electronics|false|true|5|12|false
+150|Ring Light 18"|2500|4199|61|8|Low Stock|Electronics|false|true|10|9|false
+151|Desk Calendar 2026|180|319|420|65|In Stock|Stationery|false|false|0|0|false
+152|Planner Notebook|350|599|310|48|In Stock|Stationery|false|false|0|0|false
+153|Business Card Holder|280|479|177|25|In Stock|Stationery|false|false|0|0|false
+154|Pen Holder Set|150|269|390|58|In Stock|Stationery|false|false|0|0|false
+155|Globe Desk|1200|1999|33|4|Critical|Stationery|false|true|6|12|false
