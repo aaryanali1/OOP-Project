@@ -34,5 +34,5 @@ public abstract class User {
     public abstract boolean canViewAuditLog();
     public abstract boolean canClearPay();
     public abstract boolean canMarkInactive();
-    public abstract String toString();
+    public abstract String toFileString();
 }

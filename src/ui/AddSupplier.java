@@ -5,10 +5,8 @@ import fileio.SupplierFilling;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.control.Tab;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
-import types.InventoryItem;
 import types.Supplier;
 import utilities.Utilities;
 
@@ -24,10 +22,13 @@ public class AddSupplier {
 
     private ArrayList<Supplier> suppliers;
     private TableView<Supplier> supplierTable;
+    private SupplierTab supplierTab;
 
     public void setSuppliers(ArrayList<Supplier> suppliers) { this.suppliers = suppliers; }
 
     public void setSupplierTable(TableView<Supplier> supplierTable) { this.supplierTable = supplierTable; }
+
+    public void setSupplierTab(SupplierTab supplierTab) { this.supplierTab = supplierTab; }
 
     @FXML
     void handleAdd(ActionEvent event) {
@@ -59,6 +60,7 @@ public class AddSupplier {
 
             int id = getNextID();
             suppliers.add(new Supplier(id, supplierName, contact, deliveryTime, category, "Clear", reviewScore, true));
+            supplierTab.refreshCategory();
             supplierTable.getItems().setAll(suppliers);
             new SupplierFilling().writeToFile(suppliers);
 
@@ -74,11 +76,7 @@ public class AddSupplier {
         }
     }
 
-    @FXML
-    void handleCancel(ActionEvent event) {
-        Utilities.closeWindow(event);
-    }
-
+    @FXML void handleCancel(ActionEvent event) { Utilities.closeWindow(event); }
 
     private int getNextID() {
         int maxID = 0;

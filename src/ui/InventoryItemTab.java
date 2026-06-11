@@ -66,7 +66,7 @@ public class InventoryItemTab {
             stage.show();
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -101,7 +101,7 @@ public class InventoryItemTab {
             stage.show();
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -131,6 +131,7 @@ public class InventoryItemTab {
             items.remove(selected);
             updateFinances();
             inventoryTable.getItems().setAll(items);
+            refreshCategory();
             new InventoryItemFilling().writeToFile(items);
             AuditLog.logEntry(Utilities.getCurrentUsername(), Utilities.getCurrentRole(), "Deleted Item '(" + selected.getId() + ") " + selected.getProductName() + "'");
         }
@@ -151,6 +152,15 @@ public class InventoryItemTab {
             return;
         }
 
+        if (selected.getStockQuantity() == 0) {
+            alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("No Stock");
+            alert.setHeaderText("No Stock");
+            alert.setContentText("No Stock Available for " + selected.getProductName());
+            alert.show();
+            return;
+        }
+
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/SellItem.fxml"));
             Parent root = loader.load();
@@ -167,7 +177,7 @@ public class InventoryItemTab {
             stage.show();
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -210,7 +220,7 @@ public class InventoryItemTab {
             stage.show();
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -241,7 +251,7 @@ public class InventoryItemTab {
         alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setTitle("Confirm Delivered");
         alert.setHeaderText("Mark Item as Delivered");
-        alert.setContentText("Are you sure you want to mark " + selected.getProductName() + "as delivered?");
+        alert.setContentText("Are you sure you want to mark " + selected.getProductName() + " as delivered?");
 
         Optional<ButtonType> result = alert.showAndWait();
 
@@ -249,6 +259,7 @@ public class InventoryItemTab {
             selected.setDelivered(true);
             selected.setStockQuantity(selected.getStockQuantity() + selected.getReorderQuantity());
             selected.setReordered(false);
+            selected.setReorderQuantity(0);
             selected.setStaffFlagged(false);
             selected.calculateStatus();
             inventoryTable.refresh();
@@ -289,7 +300,7 @@ public class InventoryItemTab {
             stage.show();
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -326,33 +337,26 @@ public class InventoryItemTab {
 
     @FXML
     void search(ActionEvent event) {
-        String search = searchField.getText().trim().toLowerCase();
-
-        ArrayList<InventoryItem> filtered = new ArrayList<>();
-
-        for (InventoryItem i : items) {
-            if (String.valueOf(i.getId()).contains(search) || i.getProductName().toLowerCase().contains(search) || i.getCategory().toLowerCase().contains(search)) {
-                filtered.add(i);
-            }
-        }
-        inventoryTable.getItems().setAll(filtered);
+        applyFilters();
     }
 
     @FXML
     void category(ActionEvent event) {
-        String selected = categoryBox.getValue();
+        applyFilters();
+    }
 
-        if (selected.equals("All")) {
-            inventoryTable.getItems().setAll(items);
-            return;
-        }
+    public void applyFilters() {
+        String search = searchField.getText().trim().toLowerCase();
+        String selected = categoryBox.getValue();
 
         ArrayList<InventoryItem> filtered = new ArrayList<>();
 
         for (InventoryItem i : items) {
-            if (i.getCategory().equalsIgnoreCase(selected)) filtered.add(i);
+            if (selected != null && !selected.equalsIgnoreCase("All") && !i.getCategory().equalsIgnoreCase(selected)) {
+                continue;
+            }
+            if (String.valueOf(i.getId()).contains(search) || i.getProductName().toLowerCase().contains(search) || i.getCategory().toLowerCase().contains(search)) filtered.add(i);
         }
-
         inventoryTable.getItems().setAll(filtered);
     }
 
@@ -392,7 +396,7 @@ public class InventoryItemTab {
                         case "OK":
                             setStyle("-fx-text-fill: #2471A3; -fx-font-weight: bold;");
                             break;
-                        case "BAD":
+                        case "CRITICAL":
                             setStyle("-fx-text-fill: #C0392B; -fx-font-weight: bold;");
                             break;
                         default:
@@ -432,6 +436,8 @@ public class InventoryItemTab {
             if (!categoryBox.getItems().contains(i.getCategory())) categoryBox.getItems().add(i.getCategory());
         }
         categoryBox.setValue("All");
+
+        searchField.textProperty().addListener((obs, oldText, newText) -> applyFilters());
     }
 
     public void applyPermissions() {
@@ -443,7 +449,6 @@ public class InventoryItemTab {
         delivered.setDisable(!currentUser.canMarkDelivered());
         price.setDisable(!currentUser.canUpdatePrices());
         flag.setDisable(!currentUser.canFlag());
-        update.setDisable(!currentUser.canUpdate());
         reorder.setDisable(!currentUser.canReorder());
         sell.setDisable(!currentUser.canSell());
     }
@@ -453,7 +458,7 @@ public class InventoryItemTab {
 
         for (InventoryItem i : items) {
             spending += i.getBuyPrice() * (i.getTotalSales() + i.getStockQuantity());
-            revenue += i.getSellPrice() * (i.getTotalSales() + i.getStockQuantity());
+            revenue += i.getSellPrice() * i.getTotalSales();
         }
         profit = revenue - spending;
 
@@ -470,5 +475,24 @@ public class InventoryItemTab {
         inventoryTable.getItems().setAll(items);
         inventoryTable.refresh();
         new InventoryItemFilling().writeToFile(items);
+    }
+
+    public void refreshCategory() {
+        String current = categoryBox.getValue();
+
+        categoryBox.getItems().clear();
+        categoryBox.getItems().add("All");
+
+        for (InventoryItem i : items) {
+            if (!categoryBox.getItems().contains(i.getCategory())) {
+                categoryBox.getItems().add(i.getCategory());
+            }
+        }
+        if (current != null && categoryBox.getItems().contains(current)) {
+            categoryBox.setValue(current);
+        }
+        else {
+            categoryBox.setValue("All");
+        }
     }
 }

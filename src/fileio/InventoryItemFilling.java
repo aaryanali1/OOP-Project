@@ -8,7 +8,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
 
-public class InventoryItemFilling implements FileHandling<InventoryItem>{
+public class InventoryItemFilling implements FileHandling<InventoryItem> {
     public static final String FILE_PATH = "src/data/InventoryItems.txt";
 
     @Override
@@ -20,7 +20,7 @@ public class InventoryItemFilling implements FileHandling<InventoryItem>{
             }
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -33,13 +33,12 @@ public class InventoryItemFilling implements FileHandling<InventoryItem>{
         double sellPrice = Double.parseDouble(part[3]);
         int totalSales = Integer.parseInt(part[4]);
         int stockQuantity = Integer.parseInt(part[5]);
-        String inventoryStatus = part[6];
-        String category = part[7];
-        boolean staffFlagged = Boolean.parseBoolean(part[8]);
-        boolean reordered = Boolean.parseBoolean(part[9]);
-        int reorderQuantity = Integer.parseInt(part[10]);
-        int deliveryTime = Integer.parseInt(part[11]);
-        boolean delivered = Boolean.parseBoolean(part[12]);
+        String category = part[6];
+        boolean staffFlagged = Boolean.parseBoolean(part[7]);
+        boolean reordered = Boolean.parseBoolean(part[8]);
+        int reorderQuantity = Integer.parseInt(part[9]);
+        int deliveryTime = Integer.parseInt(part[10]);
+        boolean delivered = Boolean.parseBoolean(part[11]);
 
         return new InventoryItem(id, productName, buyPrice, sellPrice, totalSales, stockQuantity, category, staffFlagged, deliveryTime, delivered, reordered, reorderQuantity);
     }
@@ -49,12 +48,17 @@ public class InventoryItemFilling implements FileHandling<InventoryItem>{
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                InventoryItem item = parseItem(line);
-                if (item != null) items.add(item);
+                try {
+                    InventoryItem item = parseItem(line);
+                    if (item != null) items.add(item);
+                }
+                catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
             }
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }

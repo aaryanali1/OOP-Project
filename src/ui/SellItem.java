@@ -23,13 +23,9 @@ public class SellItem {
     private InventoryItem item;
     private InventoryItemTab inventoryItemTab;
 
-    public void setInventoryItems(ArrayList<InventoryItem> items) {
-        this.items = items;
-    }
+    public void setInventoryItems(ArrayList<InventoryItem> items) { this.items = items; }
 
-    public void setInventoryTable(TableView<InventoryItem> inventoryTable) {
-        this.inventoryTable = inventoryTable;
-    }
+    public void setInventoryTable(TableView<InventoryItem> inventoryTable) { this.inventoryTable = inventoryTable; }
 
     public void setInventoryItemTab(InventoryItemTab inventoryItemTab) { this.inventoryItemTab = inventoryItemTab; }
 
@@ -75,13 +71,10 @@ public class SellItem {
             feedbackLabel.setText("Please enter valid Numbers");
         }
         catch (Exception e) {
-            feedbackLabel.setText("Error Adding Item");
-            e.printStackTrace();
+            feedbackLabel.setText("Error Selling Item");
+            System.out.println(e.getMessage());
         }
     }
 
-    @FXML
-    void handleCancel(ActionEvent event) {
-        Utilities.closeWindow(event);
-    }
+    @FXML void handleCancel(ActionEvent event) { Utilities.closeWindow(event); }
 }

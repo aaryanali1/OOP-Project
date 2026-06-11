@@ -57,7 +57,8 @@ public class AddItem {
             }
 
             int id = getNextID();
-            items.add(new InventoryItem(id, productName, buyPrice, sellPrice, totalSales, stockQuantity, category, false, 0, true, false, 0));
+            items.add(new InventoryItem(id, productName, buyPrice, sellPrice, totalSales, stockQuantity, category, false, 0, false, false, 0));
+            inventoryItemTab.refreshCategory();
             inventoryTable.getItems().setAll(items);
             inventoryItemTab.updateFinances();
             new InventoryItemFilling().writeToFile(items);
@@ -70,14 +71,11 @@ public class AddItem {
         }
         catch (Exception e) {
             feedbackLabel.setText("Error Adding Item");
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
-    @FXML
-    void handleCancel(ActionEvent event) {
-        Utilities.closeWindow(event);
-    }
+    @FXML void handleCancel(ActionEvent event) { Utilities.closeWindow(event); }
 
     private int getNextID() {
         int maxID = 0;

@@ -1,6 +1,5 @@
 package fileio;
 
-import types.InventoryItem;
 import types.Supplier;
 
 import java.io.BufferedReader;
@@ -21,7 +20,7 @@ public class SupplierFilling implements FileHandling<Supplier> {
             }
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -45,12 +44,17 @@ public class SupplierFilling implements FileHandling<Supplier> {
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                Supplier supplier = parseItem(line);
-                if (supplier != null) suppliers.add(supplier);
+                try {
+                    Supplier supplier = parseItem(line);
+                    if (supplier != null) suppliers.add(supplier);
+                }
+                catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
             }
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }

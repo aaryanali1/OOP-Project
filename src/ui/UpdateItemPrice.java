@@ -14,23 +14,20 @@ import java.util.ArrayList;
 
 public class UpdateItemPrice {
 
-    @FXML private TextField buyPrice;
     @FXML private Label itemName;
+    @FXML private TextField buyPrice;
     @FXML private TextField sellPrice;
+
     @FXML private Label feedbackLabel;
 
     private ArrayList<InventoryItem> items;
     private TableView<InventoryItem> inventoryTable;
-    private InventoryItem item;
     private InventoryItemTab inventoryItemTab;
+    private InventoryItem item;
 
-    public void setInventoryItems(ArrayList<InventoryItem> items) {
-        this.items = items;
-    }
+    public void setInventoryItems(ArrayList<InventoryItem> items) { this.items = items; }
 
-    public void setInventoryTable(TableView<InventoryItem> inventoryTable) {
-        this.inventoryTable = inventoryTable;
-    }
+    public void setInventoryTable(TableView<InventoryItem> inventoryTable) { this.inventoryTable = inventoryTable; }
 
     public void setInventoryItemTab(InventoryItemTab inventoryItemTab) { this.inventoryItemTab = inventoryItemTab; }
 
@@ -68,13 +65,10 @@ public class UpdateItemPrice {
             feedbackLabel.setText("Please enter valid Numbers");
         }
         catch (Exception e) {
-            feedbackLabel.setText("Error Adding Item");
-            e.printStackTrace();
+            feedbackLabel.setText("Error Updating Item Price");
+            System.out.println(e.getMessage());
         }
     }
 
-    @FXML
-    void handleCancel(ActionEvent event) {
-        Utilities.closeWindow(event);
-    }
+    @FXML void handleCancel(ActionEvent event) { Utilities.closeWindow(event); }
 }

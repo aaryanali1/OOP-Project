@@ -7,18 +7,22 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TabPane;
 import javafx.stage.Stage;
 import utilities.Utilities;
 
 public class MainWindow {
     @FXML private Label currentUserLabel;
-
     @FXML private InventoryItemTab inventoryTabController;
+
+    @FXML private TabPane tabPane;
+    @FXML private Tab auditTab;
 
     @FXML
     void logout(ActionEvent event) {
-        Utilities.switchScene(event, "/view/LoginWindow.fxml", "Login", false);
         AuditLog.logEntry(Utilities.getCurrentUsername(), Utilities.getCurrentRole(), "Logged Out");
+        Utilities.switchScene(event, "/view/LoginWindow.fxml", "Login", false);
     }
 
     @FXML
@@ -36,11 +40,14 @@ public class MainWindow {
             stage.show();
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
     public void initialize() {
         currentUserLabel.setText(Utilities.getCurrentRole() + ": " + Utilities.getCurrentUsername());
+        if (!Utilities.getCurrentUser().canViewAuditLog()) {
+            tabPane.getTabs().remove(auditTab);
+        }
     }
 }

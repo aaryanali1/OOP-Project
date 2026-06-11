@@ -42,7 +42,7 @@ public class RegisterWindow {
         }
 
         ArrayList<User> users = new ArrayList<>();
-        UserFilling.readFromFile(users);
+        new UserFilling().readFromFile(users);
 
         for (User u : users) {
             if (u.getUsername().equals(user)) {
@@ -55,17 +55,13 @@ public class RegisterWindow {
 
         User newUser = isAdmin.isSelected() ? new Admin(user, pass) : new Staff(user, pass);
         users.add(newUser);
-        UserFilling.writeToFile(users);
+        new UserFilling().writeToFile(users);
         alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setHeaderText("Registered Successfully");
         alert.setContentText("User Registered Successfully");
         alert.show();
-        AuditLog.logEntry(Utilities.getCurrentUsername(), Utilities.getCurrentRole(), "Registered User");
+        AuditLog.logEntry(user, newUser.getRole(), "Registered User");
     }
 
-    @FXML
-    void openLogin(ActionEvent event) {
-        Utilities.switchScene(event, "/view/LoginWindow.fxml", "Login",false);
-    }
-
+    @FXML void openLogin(ActionEvent event) { Utilities.switchScene(event, "/view/LoginWindow.fxml", "Login",false); }
 }

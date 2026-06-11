@@ -8,9 +8,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import types.User;
 
-import java.util.ArrayList;
-
-
 public class Utilities {
     public static void switchScene(ActionEvent event, String FILE_PATH, String title, boolean resizable) {
         try {
@@ -27,7 +24,7 @@ public class Utilities {
             stage.show();
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 

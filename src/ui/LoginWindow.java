@@ -17,7 +17,6 @@ import utilities.Utilities;
 import java.util.ArrayList;
 
 public class LoginWindow {
-
     @FXML private PasswordField password;
     @FXML private TextField username;
 
@@ -36,7 +35,7 @@ public class LoginWindow {
         }
 
         ArrayList<User> users = new ArrayList<>();
-        UserFilling.readFromFile(users);
+        new UserFilling().readFromFile(users);
 
         for (User u : users) {
             if (u.getUsername().equals(user) && u.getPassword().equals(pass)) {
@@ -55,7 +54,7 @@ public class LoginWindow {
                     AuditLog.logEntry(u.getUsername(), u.getRole(), "Logged In");
                 }
                 catch (Exception e) {
-                    e.printStackTrace();
+                    System.out.println(e.getMessage());
                 }
                 return;
             }
@@ -66,9 +65,5 @@ public class LoginWindow {
         alert.show();
     }
 
-    @FXML
-    void openRegister(ActionEvent event) {
-        Utilities.switchScene(event, "/view/RegisterWindow.fxml", "Register", false);
-    }
-
+    @FXML void openRegister(ActionEvent event) { Utilities.switchScene(event, "/view/RegisterWindow.fxml", "Register", false); }
 }

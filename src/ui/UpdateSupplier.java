@@ -14,22 +14,26 @@ import utilities.Utilities;
 import java.util.ArrayList;
 
 public class UpdateSupplier {
-    @FXML private TextField category;
+    @FXML private TextField supplierName;
     @FXML private TextField contact;
+    @FXML private TextField category;
     @FXML private TextField deliveryTime;
     @FXML private TextField reviewScore;
-    @FXML private TextField supplierName;
-    @FXML private Label feedbackLabel;
 
     @FXML private ComboBox<String> paymentStatus;
+
+    @FXML private Label feedbackLabel;
 
     private ArrayList<Supplier> suppliers;
     private TableView<Supplier> supplierTable;
     private Supplier supplier;
+    private SupplierTab supplierTab;
 
     public void setSuppliers(ArrayList<Supplier> suppliers) { this.suppliers = suppliers; }
 
     public void setSupplierTable(TableView<Supplier> supplierTable) { this.supplierTable = supplierTable; }
+
+    public void setSupplierTab(SupplierTab supplierTab) { this.supplierTab = supplierTab; }
 
     public void setSupplier(Supplier supplier) {
         this.supplier = supplier;
@@ -75,6 +79,7 @@ public class UpdateSupplier {
             supplier.setDeliveryTime(deliveryTime);
             supplier.setReviewScore(reviewScore);
             supplier.setPaymentStatus(paymentStatus.getValue());
+            supplierTab.refreshCategory();
             supplierTable.getItems().setAll(suppliers);
             supplierTable.refresh();
             new SupplierFilling().writeToFile(suppliers);
@@ -83,20 +88,15 @@ public class UpdateSupplier {
             AuditLog.logEntry(Utilities.getCurrentUsername(), Utilities.getCurrentRole(), "Update Supplier '(" + supplier.getId() + ") " + supplier.getSupplierName() + "'");
         }
         catch (NumberFormatException e) {
-            feedbackLabel.setText("Please enter valid Numbers");
+            feedbackLabel.setText("Please enter Valid Numbers");
         }
         catch (Exception e) {
             feedbackLabel.setText("Error Updating Supplier");
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
-    @FXML
-    void handleCancel(ActionEvent event) {
-        Utilities.closeWindow(event);
-    }
+    @FXML void handleCancel(ActionEvent event) { Utilities.closeWindow(event); }
 
-    public void initialize() {
-        paymentStatus.getItems().addAll("Clear", "Pending", "Overdue");
-    }
+    public void initialize() { paymentStatus.getItems().addAll("Clear", "Pending", "Overdue"); }
 }

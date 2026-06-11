@@ -20,7 +20,7 @@ public class AuditLog {
             writer.newLine();
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -33,7 +33,7 @@ public class AuditLog {
             }
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
         return logs;
     }

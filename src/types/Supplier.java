@@ -1,7 +1,7 @@
 package types;
 
 public class Supplier implements FileWrite {
-    private int id;
+    private final int id;
     private String supplierName;
     private String contact;
     private int deliveryTime;
@@ -51,11 +51,6 @@ public class Supplier implements FileWrite {
 
     public void setActive(boolean active) { this.active = active; }
 
-    @Override
-    public String toFileString() {
-        return id + "|" + supplierName + "|" + contact + "|" + deliveryTime + "|" + category + "|" + paymentStatus + "|" + reviewScore + "|" + active;
-    }
-
     public String getPriorityScore() {
         double score = Math.max(0, (reviewScore * 2.0) - (deliveryTime * 0.1));
         if (score >= 8) return String.format("%.1f - PRIORITY", score);
@@ -65,5 +60,10 @@ public class Supplier implements FileWrite {
 
     public String getActiveStatus() {
         return active ? "Yes" : "No";
+    }
+
+    @Override
+    public String toFileString() {
+        return id + "|" + supplierName + "|" + contact + "|" + deliveryTime + "|" + category + "|" + paymentStatus + "|" + reviewScore + "|" + active;
     }
 }

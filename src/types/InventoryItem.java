@@ -6,8 +6,8 @@ import java.time.format.DateTimeFormatter;
 public class InventoryItem implements FileWrite {
     public static int GOOD_THRESHOLD;
     public static int OK_THRESHOLD;
-    public static int BAD_THRESHOLD;
-    private int id;
+    public static int CRITICAL_THRESHOLD;
+    private final int id;
     private String productName;
     private double buyPrice;
     private double sellPrice;
@@ -41,7 +41,7 @@ public class InventoryItem implements FileWrite {
 
     public static int getOkThreshold() { return OK_THRESHOLD; }
 
-    public static int getBadThreshold() { return BAD_THRESHOLD; }
+    public static int getCriticalThreshold() { return CRITICAL_THRESHOLD; }
 
     public int getId() { return id; }
 
@@ -73,7 +73,7 @@ public class InventoryItem implements FileWrite {
 
     public static void setOkThreshold(int okThreshold) { OK_THRESHOLD = okThreshold; }
 
-    public static void setBadThreshold(int badThreshold) { BAD_THRESHOLD = badThreshold; }
+    public static void setCriticalThreshold(int badThreshold) { CRITICAL_THRESHOLD = badThreshold; }
 
     public void setProductName(String productName) { this.productName = productName; }
 
@@ -102,14 +102,14 @@ public class InventoryItem implements FileWrite {
     public void calculateStatus() {
         if (stockQuantity > GOOD_THRESHOLD) this.inventoryStatus = "GOOD";
         else if (stockQuantity > OK_THRESHOLD) this.inventoryStatus = "OK";
-        else this.inventoryStatus = "BAD";
+        else this.inventoryStatus = "CRITICAL";
         if (staffFlagged) this.inventoryStatus += " (FLAGGED)";
     }
 
     public int estimatedDailySales() {
         if (totalSales <= 0) return -1;
-        int estimatedDailySales = Math.max(1, totalSales / 30);
-        return stockQuantity / estimatedDailySales;
+        double estimatedDailySales = totalSales / 30.0;
+        return (int) Math.ceil(stockQuantity / estimatedDailySales);
     }
 
     public String getPredictedOutOfStock() {
@@ -128,6 +128,6 @@ public class InventoryItem implements FileWrite {
 
     @Override
     public String toFileString() {
-        return id + "|" + productName + "|" + buyPrice + "|" + sellPrice + "|" + totalSales + "|" + stockQuantity + "|" + inventoryStatus + "|" + category + "|" + staffFlagged + "|" + reordered + "|" + reorderQuantity + "|" + deliveryTime + "|" + delivered;
+        return id + "|" + productName + "|" + buyPrice + "|" + sellPrice + "|" + totalSales + "|" + stockQuantity + "|" + category + "|" + staffFlagged + "|" + reordered + "|" + reorderQuantity + "|" + deliveryTime + "|" + delivered;
     }
 }

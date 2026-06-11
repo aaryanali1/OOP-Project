@@ -23,13 +23,9 @@ public class ReorderItem {
     private InventoryItem item;
     private InventoryItemTab inventoryItemTab;
 
-    public void setInventoryItems(ArrayList<InventoryItem> items) {
-        this.items = items;
-    }
+    public void setInventoryItems(ArrayList<InventoryItem> items) { this.items = items; }
 
-    public void setInventoryTable(TableView<InventoryItem> inventoryTable) {
-        this.inventoryTable = inventoryTable;
-    }
+    public void setInventoryTable(TableView<InventoryItem> inventoryTable) { this.inventoryTable = inventoryTable; }
 
     public void setInventoryItemTab(InventoryItemTab inventoryItemTab) { this.inventoryItemTab = inventoryItemTab; }
 
@@ -60,8 +56,9 @@ public class ReorderItem {
 
             item.setReordered(true);
             item.setDelivered(false);
-            inventoryTable.refresh();
             item.setReorderQuantity(qty);
+            item.setBuyPrice(price);
+            inventoryTable.refresh();
             inventoryItemTab.updateFinances();
             new InventoryItemFilling().writeToFile(items);
 
@@ -73,13 +70,10 @@ public class ReorderItem {
             feedbackLabel.setText("Please enter valid Numbers");
         }
         catch (Exception e) {
-            feedbackLabel.setText("Error Adding Item");
-            e.printStackTrace();
+            feedbackLabel.setText("Error Reordering Item");
+            System.out.println(e.getMessage());
         }
     }
 
-    @FXML
-    void handleCancel(ActionEvent event) {
-        Utilities.closeWindow(event);
-    }
+    @FXML void handleCancel(ActionEvent event) { Utilities.closeWindow(event); }
 }

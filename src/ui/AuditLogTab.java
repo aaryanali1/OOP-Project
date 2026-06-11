@@ -12,20 +12,13 @@ public class AuditLogTab {
 
     private AuditLog auditLog = new AuditLog();
 
-    @FXML
-    void handleRefresh(ActionEvent event) {
-        refreshLogs();
-    }
+    @FXML void handleRefresh(ActionEvent event) { refreshLogs(); }
 
     public void refreshLogs() {
         auditArea.clear();
         for (String log : auditLog.loadAllLog()) {
             auditArea.appendText(log + "\n");
         }
-    }
-
-    void onTabSelected() {
-        refreshLogs();
     }
 
     public void initialize() {

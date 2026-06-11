@@ -11,10 +11,11 @@ import utilities.Utilities;
 
 public class ThresholdWindow {
 
-    @FXML private TextField bad;
-    @FXML private Label feedbackLabel;
     @FXML private TextField good;
     @FXML private TextField ok;
+    @FXML private TextField critical;
+
+    @FXML private Label feedbackLabel;
 
     private InventoryItemTab inventoryItemTab;
 
@@ -25,41 +26,37 @@ public class ThresholdWindow {
         try {
             int goodValue = Integer.parseInt(good.getText());
             int okValue = Integer.parseInt(ok.getText());
-            int badValue = Integer.parseInt(bad.getText());
+            int criticalValue = Integer.parseInt(critical.getText());
 
-            if (goodValue < 0 || okValue < 0 || badValue < 0) {
+            if (goodValue < 0 || okValue < 0 || criticalValue < 0) {
                 feedbackLabel.setText("Values cannot be Negative");
                 return;
             }
 
-            if(!(goodValue > okValue && okValue > badValue)) {
-                feedbackLabel.setText("Wrong format, Follow: GOOD > OK > BAD");
+            if(!(goodValue > okValue && okValue > criticalValue)) {
+                feedbackLabel.setText("Wrong format, Follow: GOOD > OK > CRITICAL");
                 return;
             }
 
             InventoryItem.setGoodThreshold(goodValue);
             InventoryItem.setOkThreshold(okValue);
-            InventoryItem.setBadThreshold(badValue);
-            ThresholdFile.writeToFile(goodValue, okValue, badValue);
+            InventoryItem.setCriticalThreshold(criticalValue);
+            ThresholdFile.writeToFile(goodValue, okValue, criticalValue);
 
             inventoryItemTab.refreshAfterThreshold();
             Utilities.closeWindow(event);
             AuditLog.logEntry(Utilities.getCurrentUsername(), Utilities.getCurrentRole(), "Updated Threshold");
         }
         catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
-    @FXML
-    void handleCancel(ActionEvent event) {
-        Utilities.closeWindow(event);
-    }
+    @FXML void handleCancel(ActionEvent event) { Utilities.closeWindow(event); }
 
     public void initialize() {
         good.setText((String.valueOf((InventoryItem.getGoodThreshold()))));
         ok.setText((String.valueOf((InventoryItem.getOkThreshold()))));
-        bad.setText((String.valueOf((InventoryItem.getBadThreshold()))));
+        critical.setText((String.valueOf((InventoryItem.getCriticalThreshold()))));
     }
-
 }

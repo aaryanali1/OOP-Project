@@ -1,155 +1,160 @@
-1|Wireless Mouse|850|1499|312|45|In Stock|Electronics|false|false|0|0|false
-2|USB-C Hub 7-Port|1200|2199|87|12|Low Stock|Electronics|false|true|25|7|false
-3|Mechanical Keyboard|3500|5999|203|8|Low Stock|Electronics|true|true|15|5|true
-4|27" Monitor|28000|42000|55|3|Critical|Electronics|false|true|10|14|false
-5|HDMI Cable 2m|180|349|891|200|In Stock|Electronics|false|false|0|0|false
-6|Laptop Stand|650|1199|144|30|In Stock|Electronics|false|false|0|0|false
-7|Webcam 1080p|2200|3799|76|6|Low Stock|Electronics|false|true|20|8|false
-8|Noise Cancelling Headphones|8500|13999|41|2|Critical|Electronics|true|true|5|10|false
-9|Ethernet Cable Cat6|120|249|540|180|In Stock|Electronics|false|false|0|0|false
-10|Portable SSD 1TB|4500|7299|98|18|In Stock|Electronics|false|false|0|0|false
-11|Bluetooth Speaker|1800|2999|267|35|In Stock|Electronics|false|false|0|0|false
-12|Smart Bulb Pack|750|1299|183|50|In Stock|Electronics|false|false|0|0|false
-13|Router WiFi 6|5500|8999|62|9|Low Stock|Electronics|true|true|12|9|false
-14|Power Bank 20000mAh|1500|2599|334|40|In Stock|Electronics|false|false|0|0|false
-15|Screen Cleaning Kit|90|199|420|120|In Stock|Electronics|false|false|0|0|false
-16|Drawing Tablet|6500|10999|33|5|Low Stock|Electronics|false|true|8|12|false
-17|USB Flash Drive 64GB|250|449|677|95|In Stock|Electronics|false|false|0|0|false
-18|Smart Watch|12000|18999|88|7|Low Stock|Electronics|true|true|10|11|false
-19|Cable Management Box|300|599|211|40|In Stock|Electronics|false|false|0|0|false
-20|Mini Projector|9500|15999|27|4|Critical|Electronics|false|true|6|15|false
-21|Office Chair|12000|19999|44|6|Low Stock|Furniture|false|true|10|21|false
-22|Standing Desk|25000|39999|18|2|Critical|Furniture|false|true|4|30|false
-23|Monitor Arm|2200|3799|91|14|In Stock|Furniture|false|false|0|0|false
-24|3-Drawer Cabinet|5500|8499|37|5|Low Stock|Furniture|true|true|8|18|false
-25|Whiteboard 4x3ft|3200|5299|55|8|Low Stock|Furniture|false|true|10|14|false
-26|Bookshelf 5-Tier|4800|7999|29|4|Critical|Furniture|false|true|5|20|false
-27|Ergonomic Footrest|900|1599|143|22|In Stock|Furniture|false|false|0|0|false
-28|Desk Organizer Set|450|799|287|60|In Stock|Furniture|false|false|0|0|false
-29|Reception Sofa|35000|54999|8|1|Critical|Furniture|true|true|2|45|false
-30|Visitor Chair|3500|5799|62|10|In Stock|Furniture|false|false|0|0|false
-31|A4 Paper Ream|350|599|1240|300|In Stock|Stationery|false|false|0|0|false
-32|Ballpoint Pen Box|120|229|2100|500|In Stock|Stationery|false|false|0|0|false
-33|Sticky Notes Pack|80|149|980|220|In Stock|Stationery|false|false|0|0|false
-34|Stapler Heavy Duty|280|499|317|45|In Stock|Stationery|false|false|0|0|false
-35|Staple Pins Box|40|89|1450|400|In Stock|Stationery|false|false|0|0|false
-36|Whiteboard Markers Set|180|329|540|85|In Stock|Stationery|false|false|0|0|false
-37|Highlighter Set 6pk|150|279|720|130|In Stock|Stationery|false|false|0|0|false
-38|File Folders Box|320|549|410|70|In Stock|Stationery|false|false|0|0|false
-39|Correction Tape|55|99|830|200|In Stock|Stationery|false|false|0|0|false
-40|Scissors Set|90|169|390|55|In Stock|Stationery|false|false|0|0|false
-41|Binder Clips Assorted|60|119|1100|250|In Stock|Stationery|false|false|0|0|false
-42|Notebook A5 Pack|200|379|670|90|In Stock|Stationery|false|false|0|0|false
-43|Tape Dispenser|110|199|445|60|In Stock|Stationery|false|false|0|0|false
-44|Rubber Stamps Set|350|599|88|12|Low Stock|Stationery|false|true|20|5|false
-45|Lamination Pouches|280|499|234|35|In Stock|Stationery|false|false|0|0|false
-46|Laser Printer|28000|44999|22|3|Critical|Office Machines|false|true|5|18|false
-47|Inkjet Printer|8500|13999|47|5|Low Stock|Office Machines|false|true|8|12|false
-48|Printer Ink Black|650|1099|387|40|In Stock|Office Machines|false|false|0|0|false
-49|Printer Ink Color|750|1249|298|30|In Stock|Office Machines|false|false|0|0|false
-50|Paper Shredder|5500|8999|31|4|Critical|Office Machines|true|true|6|14|false
-51|Laminator A4|3200|5299|58|8|Low Stock|Office Machines|false|true|10|10|false
-52|Binding Machine|4500|7499|24|3|Critical|Office Machines|false|true|4|16|false
-53|Label Maker|1800|2999|112|15|In Stock|Office Machines|false|false|0|0|false
-54|Barcode Scanner|3500|5799|67|9|Low Stock|Office Machines|true|true|10|8|false
-55|Receipt Printer|6500|10499|38|5|Low Stock|Office Machines|false|true|8|11|false
-56|Toner Cartridge HP|2200|3699|201|25|In Stock|Office Machines|false|false|0|0|false
-57|UPS 650VA|3800|6299|43|6|Low Stock|Office Machines|false|true|10|9|false
-58|Extension Board 6-port|380|649|512|80|In Stock|Electrical|false|false|0|0|false
-59|LED Tube Light|220|399|730|150|In Stock|Electrical|false|false|0|0|false
-60|Wall Socket Adapter|140|259|640|120|In Stock|Electrical|false|false|0|0|false
-61|Voltage Stabilizer|2800|4599|54|7|Low Stock|Electrical|false|true|12|10|false
-62|Electric Kettle|1200|1999|188|28|In Stock|Electrical|false|false|0|0|false
-63|Desk Fan|800|1399|245|35|In Stock|Electrical|false|false|0|0|false
-64|Air Purifier|8500|13999|29|3|Critical|Electrical|false|true|5|20|false
-65|Ceiling Fan Remote|350|599|177|22|In Stock|Electrical|false|false|0|0|false
-66|Smart Plug 4-pack|650|1099|143|18|In Stock|Electrical|false|false|0|0|false
-67|Battery Pack AA 24|180|319|880|160|In Stock|Electrical|false|false|0|0|false
-68|Hand Sanitizer 5L|800|1399|320|48|In Stock|Hygiene|false|false|0|0|false
-69|Tissue Box Pack|180|299|750|120|In Stock|Hygiene|false|false|0|0|false
-70|Disinfectant Spray|350|599|410|65|In Stock|Hygiene|false|false|0|0|false
-71|Disposable Gloves Box|450|749|290|40|In Stock|Hygiene|false|false|0|0|false
-72|Face Masks Box 50pk|380|649|510|70|In Stock|Hygiene|false|false|0|0|false
-73|Floor Cleaner 4L|600|999|230|35|In Stock|Hygiene|false|false|0|0|false
-74|Mop & Bucket Set|850|1399|88|10|Low Stock|Hygiene|false|true|15|6|false
-75|Trash Bags Roll|220|379|670|100|In Stock|Hygiene|false|false|0|0|false
-76|Air Freshener Spray|120|219|540|80|In Stock|Hygiene|false|false|0|0|false
-77|Soap Dispenser|280|499|195|28|In Stock|Hygiene|false|false|0|0|false
-78|Liquid Hand Soap 2L|320|549|415|55|In Stock|Hygiene|false|false|0|0|false
-79|Toilet Paper Bulk|1100|1799|380|60|In Stock|Hygiene|false|false|0|0|false
-80|Dust Bin 20L|450|749|140|18|In Stock|Hygiene|false|false|0|0|false
-81|Coffee Machine|12000|19999|34|4|Critical|Pantry|true|true|5|16|false
-82|Water Dispenser|15000|24999|21|2|Critical|Pantry|false|true|3|22|false
-83|Coffee Beans 1kg|1200|1999|287|42|In Stock|Pantry|false|false|0|0|false
-84|Tea Bags 100pk|350|599|460|75|In Stock|Pantry|false|false|0|0|false
-85|Sugar 5kg Bag|650|999|290|45|In Stock|Pantry|false|false|0|0|false
-86|Creamer 500g|280|479|310|50|In Stock|Pantry|false|false|0|0|false
-87|Paper Cups 100pk|180|299|520|80|In Stock|Pantry|false|false|0|0|false
-88|Mineral Water 24pk|600|999|640|100|In Stock|Pantry|false|false|0|0|false
-89|Plastic Spoons Pack|80|149|780|150|In Stock|Pantry|false|false|0|0|false
-90|Microwave Oven|9500|15999|26|3|Critical|Pantry|false|true|4|18|false
-91|Snack Variety Box|1800|2999|177|25|In Stock|Pantry|false|false|0|0|false
-92|Instant Noodles 12pk|480|799|390|60|In Stock|Pantry|false|false|0|0|false
-93|Ethernet Switch 8-port|2800|4599|55|8|Low Stock|Networking|false|true|10|8|false
-94|Patch Panel 24-port|4500|7299|18|2|Critical|Networking|true|true|4|12|false
-95|Network Rack 9U|12000|19999|9|1|Critical|Networking|false|true|2|25|false
-96|Fiber Patch Cable|380|649|134|20|In Stock|Networking|false|false|0|0|false
-97|PoE Injector|1800|2999|44|6|Low Stock|Networking|false|true|8|7|false
-98|Cable Tester|1200|1999|67|9|Low Stock|Networking|false|true|10|6|false
-99|SFP Module|3200|5299|28|3|Critical|Networking|true|true|6|10|false
-100|Wall Mount Bracket|550|899|112|16|In Stock|Networking|false|false|0|0|false
-101|Paracetamol Strip|35|69|1200|300|In Stock|Medical|false|false|0|0|false
-102|First Aid Kit|850|1399|143|20|In Stock|Medical|false|false|0|0|false
-103|Digital Thermometer|380|649|210|30|In Stock|Medical|false|false|0|0|false
-104|Blood Pressure Monitor|4500|7299|48|6|Low Stock|Medical|false|true|8|9|false
-105|Eye Drops Saline|120|219|430|65|In Stock|Medical|false|false|0|0|false
-106|Bandage Roll Pack|180|299|560|90|In Stock|Medical|false|false|0|0|false
-107|Antiseptic Cream|150|269|390|55|In Stock|Medical|false|false|0|0|false
-108|Pulse Oximeter|1200|1999|88|11|Low Stock|Medical|false|true|15|7|false
-109|Vitamin C Tablets|280|479|310|45|In Stock|Medical|false|false|0|0|false
-110|Stretcher Folding|8500|13999|7|1|Critical|Medical|false|true|2|20|false
-111|Notepad Legal Pad|150|269|560|88|In Stock|Stationery|false|false|0|0|false
-112|Push Pins Box|45|89|920|200|In Stock|Stationery|false|false|0|0|false
-113|Rubber Bands Box|55|99|870|180|In Stock|Stationery|false|false|0|0|false
-114|Index Cards Pack|95|179|640|110|In Stock|Stationery|false|false|0|0|false
-115|Document Tray 3-tier|380|649|230|32|In Stock|Stationery|false|false|0|0|false
-116|Presentation Clicker|650|1099|145|20|In Stock|Electronics|false|false|0|0|false
-117|USB Numeric Keypad|480|799|187|25|In Stock|Electronics|false|false|0|0|false
-118|Wrist Rest Pad|250|429|310|45|In Stock|Electronics|false|false|0|0|false
-119|Cable Organizer Velcro|90|169|780|150|In Stock|Electronics|false|false|0|0|false
-120|Screen Privacy Filter|1100|1799|98|13|Low Stock|Electronics|false|true|18|6|false
-121|Whiteboard Eraser|80|149|640|110|In Stock|Stationery|false|false|0|0|false
-122|Permanent Markers 12pk|200|369|480|72|In Stock|Stationery|false|false|0|0|false
-123|Envelope Pack A4|280|479|320|50|In Stock|Stationery|false|false|0|0|false
-124|Punching Machine|320|549|275|38|In Stock|Stationery|false|false|0|0|false
-125|Binding Comb 50pk|180|319|190|28|In Stock|Stationery|false|false|0|0|false
-126|Security Camera|8500|13999|35|4|Critical|Security|true|true|6|15|false
-127|Door Access Card Reader|12000|19999|12|1|Critical|Security|true|true|3|20|false
-128|Motion Sensor|2200|3699|44|6|Low Stock|Security|false|true|8|10|false
-129|CCTV DVR 8-Channel|15000|24999|8|1|Critical|Security|false|true|2|18|false
-130|Biometric Attendance|18000|29999|14|2|Critical|Security|true|true|3|22|false
-131|Fire Extinguisher|2500|4199|67|9|Low Stock|Safety|false|true|10|8|false
-132|Smoke Detector|1200|1999|88|12|Low Stock|Safety|false|true|15|7|false
-133|Emergency Exit Sign|800|1399|55|7|Low Stock|Safety|false|true|10|6|false
-134|Safety Helmet Pack|1500|2499|43|5|Low Stock|Safety|false|true|8|9|false
-135|Safety Vest 5pk|950|1599|77|10|In Stock|Safety|false|false|0|0|false
-136|Hard Drive 2TB|5500|8999|67|9|Low Stock|Storage|false|true|10|8|false
-137|NAS Device 2-Bay|18000|29999|15|2|Critical|Storage|true|true|3|16|false
-138|USB Hub 4-port|380|649|345|55|In Stock|Storage|false|false|0|0|false
-139|SD Card 128GB|800|1299|210|30|In Stock|Storage|false|false|0|0|false
-140|Flash Drive 256GB|1100|1799|145|20|In Stock|Storage|false|false|0|0|false
-141|Thermal Paste|180|319|230|35|In Stock|Electronics|false|false|0|0|false
-142|Anti-Static Wrist Strap|120|219|180|28|In Stock|Electronics|false|false|0|0|false
-143|Magnifying Glass|150|269|95|14|In Stock|Electronics|false|false|0|0|false
-144|Soldering Iron|1200|1999|42|5|Low Stock|Electronics|true|true|8|10|false
-145|Multimeter Digital|1800|2999|77|10|In Stock|Electronics|false|false|0|0|false
-146|Projector Screen 80"|8000|12999|22|3|Critical|Electronics|false|true|4|18|false
-147|DSLR Camera|55000|84999|11|1|Critical|Electronics|true|true|2|21|false
-148|Tripod Stand|2200|3599|44|6|Low Stock|Electronics|false|true|8|10|false
-149|Green Screen Kit|1800|2999|28|4|Critical|Electronics|false|true|5|12|false
-150|Ring Light 18"|2500|4199|61|8|Low Stock|Electronics|false|true|10|9|false
-151|Desk Calendar 2026|180|319|420|65|In Stock|Stationery|false|false|0|0|false
-152|Planner Notebook|350|599|310|48|In Stock|Stationery|false|false|0|0|false
-153|Business Card Holder|280|479|177|25|In Stock|Stationery|false|false|0|0|false
-154|Pen Holder Set|150|269|390|58|In Stock|Stationery|false|false|0|0|false
-155|Globe Desk|1200|1999|33|4|Critical|Stationery|false|true|6|12|false
+1|Webcam|386.74|917.3|2851|120|Electronics|false|false|0|0|false
+2|Motor Oil 4L|85.68|168.8|2793|110|Automotive|false|false|0|0|false
+3|Cough Syrup|174.59|249.65|4219|175|Medicine|false|false|0|0|false
+4|Paper Shredder|93.7|186.01|2134|150|Office|false|false|0|0|false
+5|Board Game|258.66|384.1|2841|90|Toys|false|false|0|0|false
+6|Dumbbells 5kg|121.0|143.77|2903|135|Sports|false|false|0|0|false
+7|History of Rome|231.87|480.0|2302|120|Books|false|true|75|18|false
+8|Flea Collar|57.41|93.32|1619|120|Pet Supplies|false|false|0|0|false
+9|Hammer 500g|57.82|78.33|3991|225|Tools|false|false|0|0|false
+10|Dress Shirt|66.14|137.53|4057|85|Clothing|false|false|0|0|false
+11|Honey Jar|440.47|824.78|4995|110|Food|false|false|0|0|false
+12|Bedside Table|144.07|269.77|4609|120|Furniture|false|false|0|0|false
+13|Trowel Set|77.69|192.64|55|40|Garden|true|true|25|14|false
+14|Tuner Clip-On|390.89|487.55|4944|110|Music|false|true|50|5|false
+15|Sunscreen SPF50|190.52|270.46|3629|100|Beauty|false|false|0|0|false
+16|Travel Atlas|56.81|106.29|4919|150|Books|false|false|0|0|false
+17|Polo Shirt|418.09|930.76|4600|250|Clothing|false|false|0|0|false
+18|Zinc Tablets|9.13|12.1|3974|175|Medicine|false|false|0|0|false
+19|Whiteboard Markers|102.24|141.94|4294|110|Office|false|false|0|0|false
+20|Tire Pressure Gauge|29.63|66.57|528|90|Automotive|false|false|0|0|false
+21|Piano Keyboard|327.03|494.65|4072|225|Music|false|true|30|7|false
+22|Shoe Rack|187.38|307.23|4120|135|Furniture|false|false|0|0|false
+23|Olive Oil 1L|100.27|117.54|3496|150|Food|false|false|0|0|false
+24|Level Tool|319.52|513.87|3316|200|Tools|false|false|0|0|false
+25|Face Mask Pack|13.7|28.22|2682|35|Beauty|true|true|20|10|false
+26|Pruning Shears|363.03|486.93|3681|120|Garden|false|false|0|0|false
+27|Stuffed Bear|161.77|232.53|4563|200|Toys|false|false|0|0|false
+28|Wireless Headphones|196.44|483.69|4693|200|Electronics|false|true|50|7|false
+29|Yoga Mat|329.87|566.29|378|110|Sports|false|false|0|0|false
+30|Cat Litter 5L|361.09|901.56|4519|100|Pet Supplies|false|false|0|0|false
+31|Steering Lock|54.31|109.78|4426|120|Automotive|false|false|0|0|false
+32|Protein Bar|233.25|291.22|1127|225|Food|false|false|0|0|false
+33|Face Moisturizer|110.4|143.53|1562|120|Beauty|false|false|0|0|false
+34|Fertilizer Pack|425.68|543.5|3480|175|Garden|false|false|0|0|false
+35|Gaming Mouse|137.79|229.16|4472|95|Electronics|true|true|50|5|false
+36|Wrench Set|388.04|442.33|3020|120|Tools|false|false|0|0|false
+37|Cat Litter 5L|425.6|746.36|2823|110|Pet Supplies|false|false|0|0|false
+38|Hand Sanitizer|14.63|31.44|820|150|Medicine|false|false|0|0|false
+39|Floor Lamp|296.09|425.71|2173|175|Furniture|false|false|0|0|false
+40|Sports Shorts|236.8|435.1|648|85|Clothing|false|false|0|0|false
+41|Label Maker|343.51|420.33|2681|150|Office|false|false|0|0|false
+42|Water Bottle|351.7|536.17|1531|120|Sports|false|true|40|7|false
+43|Music Stand|222.02|510.68|34|250|Music|false|false|0|0|false
+44|Building Blocks|54.71|126.59|14|200|Toys|false|false|0|0|false
+45|Cooking Basics|422.05|860.94|2187|90|Books|false|false|0|0|false
+46|Gaming Mouse|328.48|733.28|412|200|Electronics|false|false|0|0|false
+47|Capo Clip|444.49|681.55|2672|200|Music|false|false|0|0|false
+48|Binder Clips|271.52|316.18|3978|150|Office|false|false|0|0|false
+49|Jump Rope|418.76|787.78|509|175|Sports|false|true|75|18|false
+50|Green Tea Pack|284.95|516.26|3978|35|Food|true|true|50|18|false
+51|Self Help Guide|165.33|197.94|1295|135|Books|false|false|0|0|false
+52|Trowel Set|101.46|137.43|4679|150|Garden|false|false|0|0|false
+53|Sunscreen SPF50|141.11|180.35|581|135|Beauty|false|false|0|0|false
+54|Hoodie|163.68|275.88|4864|250|Clothing|false|false|0|0|false
+55|Standing Desk|444.9|910.16|3201|100|Furniture|false|false|0|0|false
+56|Measuring Tape|256.02|541.99|364|175|Tools|false|true|75|18|false
+57|Flea Collar|28.53|61.28|112|150|Pet Supplies|false|false|0|0|false
+58|LED Bulb Kit|287.58|456.63|3778|200|Automotive|false|false|0|0|false
+59|Antiseptic Cream|308.76|565.21|255|110|Medicine|false|false|0|0|false
+60|Puzzle 500pcs|269.29|384.18|1181|90|Toys|false|false|0|0|false
+61|Motor Oil 4L|119.21|269.92|916|110|Automotive|false|false|0|0|false
+62|Ankle Weights|342.45|796.36|3658|200|Sports|false|false|0|0|false
+63|Wall Mirror|135.75|196.51|3801|225|Furniture|false|true|30|3|false
+64|Pet Brush|349.09|606.78|3099|150|Pet Supplies|false|false|0|0|false
+65|Face Moisturizer|199.85|411.18|3055|95|Beauty|false|false|0|0|false
+66|Paper Shredder|339.01|703.62|736|150|Office|false|false|0|0|false
+67|Stuffed Bear|293.31|566.67|3666|250|Toys|false|false|0|0|false
+68|Finance 101|115.56|145.26|321|50|Books|true|true|75|10|false
+69|Gaming Mouse|178.99|263.34|4967|135|Electronics|false|false|0|0|false
+70|Plier Set|447.2|683.74|186|95|Tools|false|true|25|5|false
+71|Amplifier Mini|421.7|789.14|2575|175|Music|false|false|0|0|false
+72|Pruning Shears|341.37|683.73|2346|225|Garden|false|false|0|0|false
+73|Polo Shirt|243.37|561.56|808|225|Clothing|false|false|0|0|false
+74|Cough Syrup|419.32|742.26|4075|200|Medicine|false|false|0|0|false
+75|Granola Bag|179.15|313.84|1259|90|Food|true|false|0|0|false
+76|Sport Bag|198.02|263.35|4860|135|Sports|false|false|0|0|false
+77|Board Game|421.86|657.29|2691|250|Toys|false|true|20|21|false
+78|Tire Pressure Gauge|286.12|534.4|3011|110|Automotive|false|false|0|0|false
+79|Calculator|105.14|187.01|4021|120|Office|false|false|0|0|false
+80|Polo Shirt|396.95|851.63|2701|90|Clothing|false|false|0|0|false
+81|Dark Chocolate|336.55|739.83|4971|135|Food|false|false|0|0|false
+82|Screwdriver Set|373.8|658.89|1187|225|Tools|false|false|0|0|false
+83|Wall Mirror|433.54|477.23|3262|120|Furniture|false|false|0|0|false
+84|Art of War|265.81|541.76|4392|225|Books|false|true|40|14|false
+85|Smart Watch|432.64|646.15|2635|100|Electronics|false|false|0|0|false
+86|Shampoo 400ml|153.0|255.54|604|175|Beauty|false|false|0|0|false
+87|Hand Sanitizer|23.88|32.82|4647|110|Medicine|false|false|0|0|false
+88|Pet Brush|282.32|598.77|1033|120|Pet Supplies|false|false|0|0|false
+89|Soil Mix 5kg|172.36|380.44|3248|175|Garden|false|false|0|0|false
+90|Guitar Picks Pack|294.88|579.82|472|95|Music|false|false|0|0|false
+91|Science Fiction Novel|385.83|530.55|3064|120|Books|false|true|30|10|false
+92|Shoe Rack|257.82|605.5|4867|135|Furniture|false|false|0|0|false
+93|Power Bank|33.85|47.8|1810|50|Electronics|true|true|20|18|false
+94|Screwdriver Set|386.95|544.46|3701|175|Tools|false|false|0|0|false
+95|Ibuprofen 200mg|136.41|266.91|741|90|Medicine|false|false|0|0|false
+96|Pet Brush|22.34|46.56|3380|120|Pet Supplies|false|false|0|0|false
+97|Remote Car|88.58|104.05|4321|175|Toys|false|false|0|0|false
+98|Hair Dryer|36.74|48.55|2614|150|Beauty|false|true|25|7|false
+99|Label Maker|183.3|319.78|4225|135|Office|false|false|0|0|false
+100|Amplifier Mini|262.29|397.89|2143|85|Music|false|false|0|0|false
+101|Dress Shirt|363.09|492.05|2177|200|Clothing|false|false|0|0|false
+102|Car Phone Mount|310.94|543.26|2914|250|Automotive|false|false|0|0|false
+103|Water Bottle|55.88|128.84|2882|110|Sports|false|false|0|0|false
+104|Protein Bar|225.6|462.74|3938|120|Food|false|false|0|0|false
+105|Seed Tray|313.05|758.02|291|95|Garden|false|true|100|21|false
+106|Jump Rope|280.44|354.41|1262|175|Sports|false|false|0|0|false
+107|Desk Organizer|75.06|99.3|1905|150|Office|false|false|0|0|false
+108|Dog Leash|167.93|359.45|2905|110|Pet Supplies|false|false|0|0|false
+109|Finance 101|274.52|527.82|3395|150|Books|false|false|0|0|false
+110|Seed Tray|307.96|455.51|343|35|Garden|true|true|20|18|false
+111|Building Blocks|146.37|171.55|4771|250|Toys|false|false|0|0|false
+112|Allergy Relief|24.18|27.29|652|120|Medicine|false|true|100|14|false
+113|Protein Bar|437.54|828.52|4364|135|Food|false|false|0|0|false
+114|Lip Balm|281.04|543.32|3588|135|Beauty|false|false|0|0|false
+115|Steering Lock|61.31|104.83|2797|100|Automotive|false|false|0|0|false
+116|Smart Watch|215.0|527.4|4222|135|Electronics|false|false|0|0|false
+117|Piano Keyboard|333.81|469.85|4500|175|Music|false|false|0|0|false
+118|Polo Shirt|408.86|814.82|3300|225|Clothing|false|false|0|0|false
+119|Wire Stripper|335.03|388.05|472|150|Tools|false|true|50|21|false
+120|Office Chair|160.37|383.55|1971|90|Furniture|true|false|0|0|false
+121|Hammer 500g|43.37|74.68|2304|175|Tools|false|false|0|0|false
+122|Honey Jar|44.04|90.98|2894|225|Food|false|false|0|0|false
+123|Ballpoint Pens 10x|364.65|557.66|55|45|Office|true|true|40|14|false
+124|Hair Dryer|23.51|44.7|2142|250|Beauty|false|false|0|0|false
+125|Bandage Roll|20.05|45.38|3825|85|Medicine|false|false|0|0|false
+126|Bookshelf|17.01|35.99|4805|150|Furniture|false|true|25|3|false
+127|Action Figure|128.98|253.58|1183|200|Toys|false|false|0|0|false
+128|Hoodie|114.49|228.88|193|110|Clothing|false|false|0|0|false
+129|Soil Mix 5kg|45.95|63.82|2135|150|Garden|false|false|0|0|false
+130|Tuner Clip-On|212.41|412.99|176|90|Music|false|false|0|0|false
+131|Art of War|51.89|83.53|301|110|Books|false|false|0|0|false
+132|Fish Tank Filter|387.73|855.4|3954|120|Pet Supplies|false|false|0|0|false
+133|Power Bank|120.03|222.4|645|110|Electronics|false|true|25|3|false
+134|Yoga Mat|197.93|476.8|1886|110|Sports|false|false|0|0|false
+135|Motor Oil 4L|235.14|334.55|2458|95|Automotive|false|false|0|0|false
+136|USB Hub|337.19|763.5|1954|120|Electronics|false|false|0|0|false
+137|Body Lotion|351.03|858.79|3529|150|Beauty|false|false|0|0|false
+138|Rubik's Cube|55.69|63.51|1822|45|Toys|true|true|75|10|false
+139|Car Vacuum|141.14|292.08|3119|150|Automotive|false|false|0|0|false
+140|Ballpoint Pens 10x|127.76|221.8|1703|90|Office|false|true|75|14|false
+141|Amplifier Mini|289.52|702.88|4029|250|Music|false|false|0|0|false
+142|Bookshelf|45.78|102.99|2185|150|Furniture|false|false|0|0|false
+143|Olive Oil 1L|262.01|590.49|3421|250|Food|false|false|0|0|false
+144|Polo Shirt|387.27|883.03|976|225|Clothing|false|false|0|0|false
+145|Seed Tray|248.13|540.76|2807|90|Garden|true|false|0|0|false
+146|Measuring Tape|221.25|373.5|1445|120|Tools|false|false|0|0|false
+147|Dog Leash|342.98|762.91|393|120|Pet Supplies|false|true|75|10|false
+148|Vitamin C 500mg|368.47|461.62|3512|200|Medicine|false|false|0|0|false
+149|Self Help Guide|312.97|522.83|431|225|Books|false|false|0|0|false
+150|Jump Rope|42.69|70.35|4136|100|Sports|false|false|0|0|false
+151|Zinc Tablets|352.2|769.07|1527|250|Medicine|false|false|0|0|false
+152|Bedside Table|157.22|258.05|2239|110|Furniture|false|false|0|0|false
+153|Smart Watch|189.91|351.2|3000|120|Electronics|false|false|0|0|false
+154|Resistance Bands|335.66|587.17|1765|110|Sports|false|true|40|18|false
+155|Steering Lock|205.78|368.8|2812|95|Automotive|false|false|0|0|false
+156|Whiteboard Markers|277.84|569.31|2991|120|Office|false|false|0|0|false
+157|Hoodie|72.61|156.66|374|150|Clothing|false|false|0|0|false
+158|Plant Pot Set|383.67|709.8|913|150|Garden|false|false|0|0|false
+159|Dark Chocolate|66.23|132.95|3694|150|Food|false|false|0|0|false
+160|Wire Stripper|157.4|309.14|4331|100|Tools|false|false|0|0|false

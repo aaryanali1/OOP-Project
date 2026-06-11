@@ -26,16 +26,11 @@ public class UpdateItem {
     private InventoryItem item;
     private InventoryItemTab inventoryItemTab;
 
-    public void setInventoryItems(ArrayList<InventoryItem> items) {
-        this.items = items;
-    }
+    public void setInventoryItems(ArrayList<InventoryItem> items) { this.items = items; }
 
-    public void setInventoryTable(TableView<InventoryItem> inventoryTable) {
-        this.inventoryTable = inventoryTable;
-    }
+    public void setInventoryTable(TableView<InventoryItem> inventoryTable) { this.inventoryTable = inventoryTable; }
 
     public void setInventoryItemTab(InventoryItemTab inventoryItemTab) { this.inventoryItemTab = inventoryItemTab; }
-
 
     public void setItem(InventoryItem item) {
         this.item = item;
@@ -78,6 +73,8 @@ public class UpdateItem {
             item.setTotalSales(totalSales);
             item.setStockQuantity(stockQuantity);
             item.setCategory(category);
+            item.calculateStatus();
+            inventoryItemTab.refreshCategory();
             inventoryTable.getItems().setAll(items);
             inventoryTable.refresh();
             inventoryItemTab.updateFinances();
@@ -91,13 +88,9 @@ public class UpdateItem {
         }
         catch (Exception e) {
             feedbackLabel.setText("Error Updating Item");
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
-    @FXML
-    void handleCancel(ActionEvent event) {
-        Utilities.closeWindow(event);
-    }
-
+    @FXML void handleCancel(ActionEvent event) {Utilities.closeWindow(event); }
 }
